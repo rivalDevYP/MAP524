@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Weather Viewer</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_hint">City</string>
+    <string name="search_content_description">Search for weather by city</string>
+    <string name="temperature_celsius">%1$d°C</string>
+    <string name="search_error">Unable to process weather, please try again.</string>
+    <string name="future_weather_label">Tomorrow\'s Weather Forecast</string>
+    <string name="current_temp_label">Current Temp:</string>
+    <string name="current_high_label">High:</string>
+    <string name="current_low_label">Low:</string>
+    <string name="current_desc_label">Description:</string>
+    <string name="future_high_label">High:</string>
+    <string name="future_low_label">Low:</string>
+</resources>

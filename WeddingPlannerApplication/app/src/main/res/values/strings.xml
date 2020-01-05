@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Wedding Planner Application</string>
+    <string name="venueButton">venue finder button</string>
+    <string name="budgetButton">budget planner button</string>
+    <string name="todoButton">todo button</string>
+    <string name="mealButton">meal planner button</string>
+    <string name="main_placeholder">click to select main!</string>
+    <string name="starter_placeholder">click to select starter!</string>
+    <string name="dessert_placeholder">click to select dessert!</string>
+    <string name="drinks_placeholder">click to select drinks!</string>
+    <string name="add_item_string_literal">add item</string>
+    <string name="budget_planner_header">budget planner</string>
+</resources>

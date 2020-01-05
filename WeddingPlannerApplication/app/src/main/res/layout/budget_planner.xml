@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/budget_planner_header"
+        android:gravity="center_horizontal"
+        android:textSize="36sp"
+        android:id="@+id/budgetPlannerHeader"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/budgetPlannerHeader"
+        android:layout_alignEnd="@id/budgetPlannerHeader"
+        android:id="@+id/budgetPlannerAddItemButton"
+        android:contentDescription="@string/add_item_string_literal"
+        android:src="@drawable/add_button"
+        android:background="@android:color/transparent"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/budgetPlannerList"
+        android:layout_below="@id/budgetPlannerAddItemButton"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/budgetPlannerList"
+        android:textSize="24sp"/>
+
+</RelativeLayout>

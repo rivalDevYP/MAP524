@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mealPlanLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_prompt"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:id="@+id/pickPrompt"/>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="100dp"
+        android:minHeight="50dp"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/starterSelectionPanel"
+        app:cardElevation="8sp"
+        android:layout_below="@id/pickPrompt">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="start"
+            android:src="@mipmap/wedding_dinner_starter"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:contentDescription="@string/starter_cont_desc"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/starter_prompt"
+            android:textSize="24sp"
+            android:paddingStart="50dp"
+            android:paddingEnd="0dp"
+            android:id="@+id/starterSelectionTextView"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="100dp"
+        android:minHeight="50dp"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/entreeSelectionPanel"
+        android:layout_below="@id/starterSelectionPanel"
+        app:cardElevation="8sp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="start"
+            android:src="@mipmap/wedding_dinner_entree"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:contentDescription="@string/entree_cont_desc"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/entree_prompt"
+            android:textSize="24sp"
+            android:paddingStart="50dp"
+            android:paddingEnd="0dp"
+            android:id="@+id/entreeSelectionTextView"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="100dp"
+        android:minHeight="50dp"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/dessertSelectionPanel"
+        android:layout_below="@id/entreeSelectionPanel"
+        app:cardElevation="8sp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="start"
+            android:src="@mipmap/wedding_dinner_dessert"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:contentDescription="@string/dessert_cont_desc"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/dessert_prompt"
+            android:textSize="24sp"
+            android:paddingStart="50dp"
+            android:paddingEnd="0dp"
+            android:id="@+id/dessertSelectionTextView"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="100dp"
+        android:minHeight="50dp"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/wineSelectionPanel"
+        android:layout_below="@id/dessertSelectionPanel"
+        app:cardElevation="8sp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="start"
+            android:src="@mipmap/wedding_dinner_wine"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:contentDescription="@string/wine_cont_desc"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/wine_prompt"
+            android:textSize="24sp"
+            android:paddingStart="50dp"
+            android:paddingEnd="0dp"
+            android:id="@+id/wineSelectionTextView"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Wedding Planner Material</string>
+    <string name="application_title">Wedding Planner Application</string>
+    <string name="mealPlannerTextView">Meal Planner</string>
+    <string name="venueFinderTextView">Venue Finder</string>
+    <string name="wedding_dinner_cont_desc">wedding dinner</string>
+    <string name="wedding_venue_cont_desc">wedding venue</string>
+    <string name="menu_button_cont_desc">menu button</string>
+    <string name="entree_prompt">Entree</string>
+    <string name="entree_cont_desc">entree</string>
+    <string name="starter_prompt">Starter</string>
+    <string name="starter_cont_desc">starter</string>
+    <string name="dessert_prompt">Dessert</string>
+    <string name="dessert_cont_desc">dessert</string>
+    <string name="wine_prompt">Wine</string>
+    <string name="wine_cont_desc">wine</string>
+    <string name="select_prompt">Select: </string>
+    <string name="title_activity_venue_finder_map">Venue Finder</string>
+    <string name="api_key">AIzaSyBNudRfXJafGSTQw5a699-lALHe-7eFpjs</string>
+</resources>
